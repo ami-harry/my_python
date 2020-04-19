@@ -15,13 +15,22 @@
 #     return a[1]
 #
 # a=[[3,44],[6,7],[77,223],[23,65]]
-# a.sort(key=arr)
+# a.sort(key=argument) --> here lambda function is used and used as x:x[1]
+"""  means x is variable and it will return the first value at x of 1. mtlb x 
+ ke phle index ke value ko leke sort krega."""
 # print(a)
 
 # using lambda function
-# a=[[3,44],[6,7],[77,223],[23,65]]
+# a=[[3,44],[6,7],[77,223],[23,65]]kali
 # a.sort(key=lambda x:x[1])
 
 # print(a)
 
 # this will also work
+
+# a=[[14,1],[15,42],[0,21]]
+# a.sort(key=lambda b:b[1])
+# print(a)
+
+print('hk')
+print('hk')

@@ -32,3 +32,8 @@
 # a1=f"{a} {b} {c} {d} {e} {f}{f1} {g} {h}"
 # print(a1)
 
+
+me="harry"
+val=4
+b=f"this is {me} {val}"
+print(b)
