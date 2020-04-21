@@ -2,7 +2,7 @@
 
 # lets take an example of factorial
 # using iterative method
-"""
+
 def fact_int(n):
 #     """
 #     :param n: an integer
@@ -14,8 +14,8 @@ def fact_int(n):
      	return fact
 num=int(input("enter value for n\n"))
 print("factorial of number using iterative method is-", fact_int(num))
-"""
-"""
+
+
 # factorial using recursive method
 """def fact_rec(n):
 

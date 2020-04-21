@@ -1,0 +1,16 @@
+#enumerator function is made in made to make the function easier
+
+#lst=["harry","rohan", "mayank", "alok", "pandey", "rahul"]
+"""i=1
+for h in lst:
+	if i%2 is not 0: #i%2!=0
+		print(f"hey call these boys {h}")
+	i+1"""
+#here we have to do so many step, we have to initialize with 1 and
+#have to run a loop and after that we have to increment it, to make 
+#these steps short. enumerator was introduced in python.
+lst=["harry","rohan", "mayank", "alok", "pandey", "rahul"]
+for index, lt in enumerate(lst):
+	if index%2==0:
+		print(f"hey call {lt}")
+

@@ -1,9 +1,9 @@
 # try:  ,  except is used to save our program, if any error occur these save our program and our program works smoothly
 # suppose if we give inout an integer in case of string it will manage and will give an output with exception handling
 
-# n1=int(input("enter first number\n"))
-# n2=int(input("enter second number\n"))
-# print("the sum is=", n1 + n2)
+n1=int(input("enter first number\n"))
+n2=int(input("enter second number\n"))
+print("the sum is=", n1 + n2)
 
 # here if we give an integer as input it will run smoothly but give an string then will through an error
 
